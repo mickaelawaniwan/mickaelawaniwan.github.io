@@ -1,0 +1,21 @@
+@import "src/styles";
+
+.header{
+    background-color: $grape-purple;
+    color: $primary-text-color;
+    mat-button{
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.23px;
+            color: $primary-text-color;;
+    }
+}
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }

@@ -1,0 +1,11 @@
+{
+  "homeData": {
+    "header" : {
+      "title": "orsus",
+      "why" : "WHY ORSUS",
+      "our" : "OUR TEAM",
+      "explore" : "EXPLORE",
+      "contact" : "CONTACT"
+    }
+  }
+}

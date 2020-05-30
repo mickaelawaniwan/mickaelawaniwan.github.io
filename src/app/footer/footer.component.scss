@@ -1,0 +1,251 @@
+@import "src/styles";
+
+.footer{
+    background-color: $grape-purple;
+    padding: 10% 0 5% 0;
+    .title{
+        width: auto;
+        height: 63px;
+        font-family: 'FuturaBT';
+        font-size: 52px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.65;
+        letter-spacing: 0.57px;
+        text-align: center;
+        color: #ffffff;
+        @media screen and (max-width: $bp-lg) {
+            height: 30px;
+            font-size: 26px;
+            line-height: 1.15;
+            letter-spacing: 0.38px;
+        }
+    }
+    .contact-form {
+        padding: 10%;
+        @media screen and (max-width: $bp-lg) {
+            padding: 20px;
+        }
+        .form-msg{
+            padding-top: 5%;
+        }
+        input,textarea{
+            color: #ffffff;
+            height: 32px;
+            font-family: 'FuturaBT';
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2;
+            letter-spacing: 0.27px; 
+        }
+
+        label{
+            width: auto;
+            height: 26px;
+            font-family: 'Open Sans';
+            font-size: 18px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.44;
+            letter-spacing: 0.3px;
+            text-align: justify;
+            color: #ffffff;
+            @media screen and (max-width: $bp-lg){
+                font-size: 16px;
+                line-height: 1.63;
+                letter-spacing: 0.27px;
+            }
+            
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        select.form-control {
+          background: transparent;
+          border: none;
+          border-bottom: 1px solid #ffffff;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          border-radius: 0;
+        }
+        
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus,
+        select.form-control:focus {
+          -webkit-box-shadow: none;
+          box-shadow: none;
+        }
+        textarea{
+            height: 171px;
+            border: 1px solid #ffffff;
+            border-radius: 3px;
+            @media screen and (max-width: $bp-lg){
+                height: 166px;
+            }
+        }
+        .btn-msg{
+            color: #ffffff;
+            width: 212px;
+            height: 40px;
+            border-radius: 10px;
+            border: solid 1px #ffffff;
+            @media screen and (max-width: $bp-lg){
+                width: 145px;
+                height: 36px;
+            }
+        }
+        .btn-row{
+            text-align: center;
+        }
+    }
+
+    .investor{
+        p{
+            font-family: 'Open Sans';
+            font-size: 24px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.08;
+            letter-spacing: 0.4px;
+            color: #ffffff;
+            @media screen and (max-width: $bp-lg) {
+                font-size: 18px;
+                line-height: 1.44;
+                letter-spacing: 0.3px;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+        .icon-row{
+            font-family: 'Open Sans';
+            font-size: 24px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.08;
+            letter-spacing: 0.4px;
+            color: $perrywinkle-two;
+            text-align: center;
+            @media screen and (max-width: $bp-lg) {
+                .icon-item{
+                    padding: 10px 0 10px 0;
+                }
+            }
+        }
+        .white-line{
+            margin: 40px 0 40px 0;
+            height: 1px;
+            border: solid 1px #ffffff;
+        }
+    }
+
+    .follow-us{
+        color: #ffffff;
+        .row{
+            margin: 15px 0 15px 0;
+            @media screen and (max-width: $bp-lg) {
+                display: block;
+            }
+        }
+        
+        .orsus-logo{
+            font-weight: bold;
+            font-size: 25px;
+            @media screen and (max-width: $bp-lg) {
+                display: inherit;
+                text-align: center;
+            }
+        }
+        .orsus-desc{
+            max-width: 235px;
+            height: 118px;
+            font-family: 'FuturaBT';
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.86;
+            letter-spacing: 0.53px;
+            color: #ffffff;
+            @media screen and (max-width: $bp-lg) {
+                display: inline-block;
+                text-align: center;
+            }
+        }
+        .first-mobile{
+            display: none;
+            @media screen and (max-width: $bp-lg) {
+                display: block;
+                text-align: center;
+            }
+        }
+        .first-web{
+            display: block;
+            @media screen and (max-width: $bp-lg) {
+                display: none;
+            }
+        }
+        .second-col,.third-col, .fourth-col{
+            width: 178px;
+            height: auto;
+            font-family: 'FuturaBT';
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.71;
+            letter-spacing: 0.18px;
+            color: #ffffff;  
+            text-align: center;
+        }
+        .fifth-col{
+            font-family: 'FuturaBT';
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.23px;
+            color: #ffffff;
+            @media screen and (max-width: $bp-lg) {
+                text-align: center;
+                padding: 10% 0 20% 0;
+            }
+            .social-icons{
+                img{
+                    width: 32.7px;
+                    height: 31.9px;
+                    margin: 10px 10px 0 0;
+                }
+                @media screen and (max-width: $bp-lg) {
+                    display: block;
+                }
+            }
+            .follow-text{
+                @media screen and (max-width: $bp-lg) {
+                    display: inline;
+                }
+            }
+            .copyright{
+                width: auto;
+                height: 18px;
+                font-family: 'FuturaBT';
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.18px;
+                color: #ffffff;
+                padding-top: 20px;
+            }
+        }
+    }
+}

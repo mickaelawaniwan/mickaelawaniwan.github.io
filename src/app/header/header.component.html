@@ -1,0 +1,35 @@
+<div style="height: 100%;">
+    <mat-toolbar class="header">
+      <mat-toolbar-row class="container">
+        <span>{{textData.title}}</span>
+        <span class="menu-spacer"></span>
+        <span class="example-fill-remaining-space"></span>
+        <div fxShow="true" fxHide.lt-md>
+          <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+          <a href="#" mat-button>{{textData.why}}</a>
+          <a href="#" mat-button>{{textData.our}}</a>
+          <a href="#" mat-button>{{textData.explore}}</a>
+          <a href="#" mat-button>{{textData.contact}}</a>
+        </div>
+        <button mat-icon-button (click)="sidenav.toggle()" class="menuBtn" fxShow="true" fxHide.gt-sm>
+            <mat-icon>menu</mat-icon>
+        </button>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  
+    <mat-sidenav-container fxFlexFill>
+      <mat-sidenav #sidenav position="end"> 
+        <mat-nav-list>
+          <!-- <a (click)="sidenav.toggle()" href="" mat-list-item>Close</a> -->
+          <a mat-list-item routerLink='/' >{{textData.why}}</a>
+          <a mat-list-item routerLink='/' >{{textData.our}}</a>
+          <a mat-list-item routerLink='/' >{{textData.explore}}</a>
+          <a mat-list-item routerLink='/' >{{textData.contact}}</a>
+        </mat-nav-list>
+      </mat-sidenav>
+      <mat-sidenav-content fxFlexFill>
+        <router-outlet></router-outlet>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+  

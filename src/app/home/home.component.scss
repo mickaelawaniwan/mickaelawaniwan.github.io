@@ -1,0 +1,520 @@
+@import "src/styles";
+
+.homeSection{
+    background-color: $grape-purple;
+    display: block;
+    padding: 10% 0 10% 0;
+    .title{
+        width: 794px;
+        height: auto;
+        font-family: 'FuturaBT';
+        font-size: 56px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 0.8px;
+        color: $primary-text-color;
+        padding-bottom: 55px;
+        @media screen and (max-width: $bp-lg) {
+          width: auto;
+          height: auto;
+          font-family: 'FuturaBT';
+          font-size: 26px;
+          line-height: 1.31;
+          letter-spacing: 0.37px;
+          text-align: center;
+        }
+        .democratizing{
+          font-weight: bold;
+        }
+
+    }
+    .subs{
+      width: 328px;
+      height: 37px;
+      font-family: 'Open Sans';
+      font-size: 18px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: italic;
+      line-height: 1.78;
+      letter-spacing: 0.3px;
+      color:$primary-text-color;
+      @media screen and (max-width: $bp-lg) {
+        width: 100%;
+        font-size: 14px;
+        line-height: 2.29;
+        letter-spacing: 0.23px;
+        text-align: center;
+     
+      }
+    }
+    .row-email{
+      margin-left: 0;
+      @media screen and (max-width: $bp-lg) {
+        margin: 0;
+      }
+    }
+    .your-email {
+        width: 447px;
+        height: 42px;
+        font-family: 'FuturaBT';
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: 0.27px;
+        color: $primary-text-color;;
+        border-radius: 2px;
+        border: solid 1px #ffffff;
+        background-color: $grape-purple;
+        margin-right: 7px;
+        @media screen and (max-width: $bp-lg) {
+          width: 100%;
+        }
+      }
+      .btn-submit{
+        width: 132px;
+        height: 42px;
+        border-radius: 2px;
+        border: solid 1px #645fe4;
+        background-color: #645fe4;
+        font-family: 'FuturaBT';
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.78;
+        letter-spacing: 0.3px;
+        text-align: center;
+        color: $primary-text-color;    
+        @media screen and (max-width: $bp-lg) {
+          margin: 17px auto 0 auto;
+          width: 68px;
+          height: 36px;
+          font-family: OpenSans;
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 0.23px;
+        }
+      }
+}
+
+.withOrsusSection{
+  background-color: $grape-purple;
+  display: block;
+  padding: 5% 0 7% 0;
+  margin-bottom: 5%;
+  border-bottom-left-radius: 50% 15%;
+  border-bottom-right-radius: 50% 15%;
+    .title-with-orsus {
+        height: 52px;
+        font-family: 'FuturaBT';
+        font-size: 52px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0.76px;
+        text-align: center;
+        color: $primary-text-color;
+        margin-bottom: 55px;
+        @media screen and (max-width: $bp-lg) {
+          font-size: 26px;
+          line-height: 2;
+          letter-spacing: 0.38px;
+        }
+      }
+      .creators-influencers{
+        .creators-title{
+          width: 695px;
+          height: 110px;
+          background-color: #ffffff;
+          padding: 20px;
+          margin-left: 5%;
+          position: absolute;
+          z-index: 1;
+          @media screen and (max-width: $bp-lg) {
+            width: 157px;
+            height: auto;
+            padding: 5px;
+            margin-left: 10px;
+            margin-top: -20px;
+          }
+        }
+        p{
+          font-family: 'FuturaBT';
+          font-size: 48px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.33;
+          letter-spacing: 0.44px;
+          color: $grape-purple;
+          @media screen and (max-width: $bp-lg) {
+            font-size: 24px;
+            text-align: left;
+            letter-spacing: 0.22px;
+            line-height: 1.5;
+            margin: 0;
+          }
+        } 
+      }
+      .creators-list{
+        width: 771px;
+        height: auto;
+        background-color: $grape-purple-two;
+        display: flex;
+        align-items: center;
+        padding-right: 30%;
+        padding-left: 5%;
+        padding-top: 100px;
+        margin-top: 5%;
+        margin-right: 30%;
+        @media screen and (max-width: $bp-lg) {
+          padding: 0;
+          margin: 10% 0 10% 0;
+          background-color: $grape-purple;
+          width: auto;
+        }
+          ul{
+            font-family: ''Open Sans'';
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.9;
+            letter-spacing: 0.4px;
+            color: $primary-text-color;
+            @media screen and (max-width: $bp-lg) {
+              font-family: OpenSans;
+              font-size: 16px;
+              line-height: 1.63;
+              letter-spacing: 0.32px;
+              li{
+                padding: 5px 0 5px 0;
+              }
+            }
+            
+          }
+
+      }
+      .creators-img{
+        width: auto;
+        height: 520px;
+        object-fit: contain;
+        position: absolute;
+        left: 45%;
+        margin-top: 3%;
+        padding: 0;
+        overflow: hidden;
+        img{
+            width: 100%;
+        }
+      }
+      .img-mobile{
+        display:none;
+      }
+      .img-web{
+        display:block;
+      }
+      @media screen and (max-width: $bp-lg) {
+        .img-mobile{
+          display:block;
+          margin-left: 10%;
+          width: auto;
+          height: auto;
+          display: block;
+          position: unset;
+          left: auto;
+          object-fit: none;
+          margin: 0 5% 0 10%;
+        }
+        .img-web{
+          display:none;
+        }
+      }
+      .fans-followers{
+        margin-top: 5%;
+        border-radius: 0 0 25px 25px;
+        .fans-title{
+          width: 580px;
+          height: 110px;
+          background-color: #ffffff;
+          padding: 20px;
+          right: 0;
+          margin-right: 20%;
+          align-items: right;
+          position: absolute;
+          z-index: 2;
+          @media screen and (max-width: $bp-lg) {
+            width: 157px;
+            height: auto;
+            padding: 5px;
+            right: auto;
+            margin-right: 0;
+            align-items: left;
+            margin-left: 10px;
+            margin-top: -20px;
+          }
+        }
+        p{
+          width: auto;
+          height: auto;
+          font-family: 'FuturaBT';
+          font-size: 48px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.33;
+          letter-spacing: 0.44px;
+          color: $grape-purple;
+          @media screen and (max-width: $bp-lg) {
+            font-size: 24px;
+            text-align: left;
+            letter-spacing: 0.22px;
+            line-height: 1.5;
+            margin: 0;
+          }
+        }
+      
+      .fans-list{
+            width: 771px;
+            height: auto;
+            background-color: $grape-purple-two;
+            display: flex;
+            align-items: center;
+            padding-left: 33%;
+            padding-right: 5%;
+            padding-top: 100px;
+            margin-top: 5%;
+            margin-left: 30%;
+            @media screen and (max-width: $bp-lg) {
+              padding: 0;
+              margin: 10% 0 10% 0;
+              background-color: unset;
+              width: auto;
+            }
+          ul{
+            font-family: 'Open Sans';
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.9;
+            letter-spacing: 0.4px;
+            color: $primary-text-color;
+            @media screen and (max-width: $bp-lg) {
+              font-family: OpenSans;
+              font-size: 16px;
+              line-height: 1.63;
+              letter-spacing: 0.32px;
+              li{
+                padding: 5px 0 5px 0;
+              }
+            }
+          }
+        
+      }
+      .fans-img{
+        width: auto;
+        height: 520px;
+        object-fit: contain;
+        position: absolute;
+        right: 40%;
+        margin-top: 3%;
+        padding: 0;
+        z-index: 1;
+        overflow: hidden;
+        @media screen and (max-width: $bp-lg) {
+            margin-left: 10%;
+            width: auto;
+            height: auto;
+            display: block;
+            position: unset;
+            right: auto;
+            object-fit: none;
+            margin: 0 5% 0 10%;
+          }
+        }
+        img{
+            width: 100%;
+        }
+        .img-mobile{
+          display:none;
+        }
+        .img-web{
+          display:block;
+        }
+        @media screen and (max-width: $bp-lg) {
+          .img-mobile{
+            display:block;
+            margin-left: 10%;
+            width: auto;
+            height: auto;
+            display: block;
+            position: unset;
+            left: auto;
+            object-fit: none;
+            margin: 0 5% 0 10%;
+          }
+          .img-web{
+            display:none;
+          }
+        }
+      }
+}
+
+.whyOrsusSection{
+  padding: 5% 0 5% 0;
+  .title-why-orsus{
+    width: auto;
+    height: 52px;
+    font-family: FuturaBT;
+    font-size: 52px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.76px;
+    text-align: center;
+    margin-bottom: 55px;
+    color: $charcoal-gray;
+      @media screen and (max-width: $bp-lg) {
+        font-size: 26px;
+        line-height: 2;
+        letter-spacing: 0.38px;
+      }
+  }
+  .why-video{
+    display: block;
+    text-align: center;
+    img{
+      width: 774px;
+      height: 458px;
+      box-shadow: 0 2px 20px 0 rgba(45, 20, 87, 0.15);
+      background-image: linear-gradient(to bottom, rgba(157, 152, 243, 0.4), rgba(100, 95, 228, 0.4));
+      @media screen and (max-width: $bp-lg) {
+        width: 335px;
+        height: 199px;
+      }
+    }
+  }
+  .why-text{
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    p{
+      max-width: 975px;
+      height: 193px;
+      font-family: OpenSans;
+      font-size: 20px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.7;
+      letter-spacing: 0.4px;
+      text-align: center;
+      color: $charcoal-gray;   
+      display: inline-block; 
+      @media screen and (max-width: $bp-lg) {
+        max-width: 335px;
+        height: 280px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.63;
+        letter-spacing: 0.32px;
+      }
+    }
+  }
+}
+
+.ecosystemSection{
+  padding: 5% 0 5% 0;
+  background-color: $white-two;
+  .title-eco{
+    width: auto;
+    height: 52px;
+    font-family: 'FuturaBT';
+    font-size: 52px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.76px;
+    text-align: center;
+    margin-bottom: 55px;
+    color: $charcoal-gray;
+    @media screen and (max-width: $bp-lg) {
+      font-size: 26px;
+      line-height: 3.31;
+      letter-spacing: 0.28px;
+      color:black;
+    }
+  }
+  .row{
+    .col{
+      padding: 0 10px 0 10px;
+    }
+  }
+  .eco-icon{
+    width: auto;
+    height: 73.6px;
+    text-align: center;
+    img{
+      margin: auto;
+    }
+    @media screen and (max-width: $bp-lg) {
+      height: 120px;
+    }
+  }
+  .eco-title{
+    .title{
+      width: auto;
+      height: 47px;
+      font-family: OpenSans;
+      font-size: 30px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: 0.5px;
+      text-align: center;
+      color: $charcoal-gray;
+      margin: auto;
+      @media screen and (max-width: $bp-lg) {
+        font-size: 20px;
+        line-height: 2;
+        letter-spacing: 0.33px;
+      }
+    }
+  }
+  .eco-desc{
+    margin: 0;
+    .desc{
+      width: auto;
+      height: 171px;
+      font-family: OpenSans;
+      font-size: 18px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.78;
+      letter-spacing: 0.4px;
+      text-align: center;
+      color: $charcoal-gray;
+      display: inline-block; 
+      @media screen and (max-width: $bp-lg) {
+        height: 145px;
+        font-family: Helvetica;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.63;
+        letter-spacing: 0.36px;    
+      }
+    }
+  }
+}
+
