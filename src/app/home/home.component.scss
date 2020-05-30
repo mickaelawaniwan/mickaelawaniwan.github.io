@@ -68,7 +68,7 @@
         letter-spacing: 0.27px;
         color: $primary-text-color;;
         border-radius: 2px;
-        border: solid 1px #ffffff;
+        border: solid 1px $primary-text-color;
         background-color: $grape-purple;
         margin-right: 7px;
         @media screen and (max-width: $bp-lg) {
@@ -94,7 +94,7 @@
           margin: 17px auto 0 auto;
           width: 68px;
           height: 36px;
-          font-family: OpenSans;
+          font-family: Open Sans;
           font-size: 14px;
           font-weight: 600;
           letter-spacing: 0.23px;
@@ -131,7 +131,7 @@
         .creators-title{
           width: 695px;
           height: 110px;
-          background-color: #ffffff;
+          background-color: $primary-text-color;
           padding: 20px;
           margin-left: 5%;
           position: absolute;
@@ -189,7 +189,7 @@
             letter-spacing: 0.4px;
             color: $primary-text-color;
             @media screen and (max-width: $bp-lg) {
-              font-family: OpenSans;
+              font-family: 'Open Sans';
               font-size: 16px;
               line-height: 1.63;
               letter-spacing: 0.32px;
@@ -242,7 +242,7 @@
         .fans-title{
           width: 580px;
           height: 110px;
-          background-color: #ffffff;
+          background-color: $primary-text-color;
           padding: 20px;
           right: 0;
           margin-right: 20%;
@@ -307,7 +307,7 @@
             letter-spacing: 0.4px;
             color: $primary-text-color;
             @media screen and (max-width: $bp-lg) {
-              font-family: OpenSans;
+              font-family: 'Open Sans';
               font-size: 16px;
               line-height: 1.63;
               letter-spacing: 0.32px;
@@ -409,7 +409,7 @@
     p{
       max-width: 975px;
       height: 193px;
-      font-family: OpenSans;
+      font-family: 'Open Sans';
       font-size: 20px;
       font-weight: normal;
       font-stretch: normal;
@@ -474,7 +474,7 @@
     .title{
       width: auto;
       height: 47px;
-      font-family: OpenSans;
+      font-family: 'Open Sans';
       font-size: 30px;
       font-weight: bold;
       font-stretch: normal;
@@ -496,7 +496,7 @@
     .desc{
       width: auto;
       height: 171px;
-      font-family: OpenSans;
+      font-family: 'Open Sans';
       font-size: 18px;
       font-weight: 300;
       font-stretch: normal;

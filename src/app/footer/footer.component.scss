@@ -14,7 +14,7 @@
         line-height: 1.65;
         letter-spacing: 0.57px;
         text-align: center;
-        color: #ffffff;
+        color: $primary-text-color;
         @media screen and (max-width: $bp-lg) {
             height: 30px;
             font-size: 26px;
@@ -31,7 +31,7 @@
             padding-top: 5%;
         }
         input,textarea{
-            color: #ffffff;
+            color: $primary-text-color;
             height: 32px;
             font-family: 'FuturaBT';
             font-size: 16px;
@@ -53,7 +53,7 @@
             line-height: 1.44;
             letter-spacing: 0.3px;
             text-align: justify;
-            color: #ffffff;
+            color: $primary-text-color;
             @media screen and (max-width: $bp-lg){
                 font-size: 16px;
                 line-height: 1.63;
@@ -68,7 +68,7 @@
         select.form-control {
           background: transparent;
           border: none;
-          border-bottom: 1px solid #ffffff;
+          border-bottom: 1px solid $primary-text-color;
           -webkit-box-shadow: none;
           box-shadow: none;
           border-radius: 0;
@@ -83,18 +83,18 @@
         }
         textarea{
             height: 171px;
-            border: 1px solid #ffffff;
+            border: 1px solid $primary-text-color;
             border-radius: 3px;
             @media screen and (max-width: $bp-lg){
                 height: 166px;
             }
         }
         .btn-msg{
-            color: #ffffff;
+            color: $primary-text-color;
             width: 212px;
             height: 40px;
             border-radius: 10px;
-            border: solid 1px #ffffff;
+            border: solid 1px $primary-text-color;
             @media screen and (max-width: $bp-lg){
                 width: 145px;
                 height: 36px;
@@ -114,7 +114,7 @@
             font-style: normal;
             line-height: 1.08;
             letter-spacing: 0.4px;
-            color: #ffffff;
+            color: $primary-text-color;
             @media screen and (max-width: $bp-lg) {
                 font-size: 18px;
                 line-height: 1.44;
@@ -142,12 +142,12 @@
         .white-line{
             margin: 40px 0 40px 0;
             height: 1px;
-            border: solid 1px #ffffff;
+            border: solid 1px $primary-text-color;
         }
     }
 
     .follow-us{
-        color: #ffffff;
+        color: $primary-text-color;
         .row{
             margin: 15px 0 15px 0;
             @media screen and (max-width: $bp-lg) {
@@ -173,7 +173,7 @@
             font-style: normal;
             line-height: 1.86;
             letter-spacing: 0.53px;
-            color: #ffffff;
+            color: $primary-text-color;
             @media screen and (max-width: $bp-lg) {
                 display: inline-block;
                 text-align: center;
@@ -202,8 +202,10 @@
             font-style: normal;
             line-height: 1.71;
             letter-spacing: 0.18px;
-            color: #ffffff;  
-            text-align: center;
+            color: $primary-text-color;  
+            @media screen and (max-width: $bp-lg) {
+                text-align: center;
+            }
         }
         .fifth-col{
             font-family: 'FuturaBT';
@@ -213,7 +215,7 @@
             font-style: normal;
             line-height: normal;
             letter-spacing: 0.23px;
-            color: #ffffff;
+            color: $primary-text-color;
             @media screen and (max-width: $bp-lg) {
                 text-align: center;
                 padding: 10% 0 20% 0;
@@ -243,7 +245,7 @@
                 font-style: normal;
                 line-height: normal;
                 letter-spacing: 0.18px;
-                color: #ffffff;
+                color: $primary-text-color;
                 padding-top: 20px;
             }
         }

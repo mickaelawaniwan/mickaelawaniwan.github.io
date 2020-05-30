@@ -1,10 +1,10 @@
 <section class="homeSection">
     <div class="container">
-        <p class="title"><span class="democratizing">Democratizing</span> the entertainment industry and reinventing talent discovery with blockchain.</p>
-        <label for="input-email" class="subs">Subscribe for Updates!</label>
+        <p class="title"><span class="democratizing"> {{homeData.democratizing}}</span> {{homeData.desc}}</p>
+        <label for="input-email" class="subs">{{homeData.sub}}</label>
         <div class="row row-email"> 
                 <input id="input-email" type="text" class="form-control your-email" placeholder="Your Email"/>
-                <button type="button" class="btn btn-submit">Submit</button>
+                <button type="button" class="btn btn-submit">{{homeData.submit}}</button>
         </div>
        
     </div>
@@ -12,14 +12,14 @@
 
 <section class="withOrsusSection">
     <div class="container">
-        <p class="title-with-orsus">With Orsus</p>
+        <p class="title-with-orsus">{{homeData.withOrsus}}</p>
 
         <div class="creators-influencers">
             <div class="col-lg creators-img img-mobile">
                 <img src="assets/artist-img.png"/>
             </div>
             <div class="creators-title">
-                <p>Artists</p>
+                <p>{{homeData.artists}}</p>
             </div>
             <div class="row">
                 <div class="col-lg creators-list">
@@ -41,7 +41,7 @@
                 <img src="assets/artist-img.png"/>
             </div>
             <div class="fans-title">
-                <p>Fans</p>
+                <p>{{homeData.fans}}</p>
             </div>
             <div class="row">
                 <div class="col-lg fans-img img-web">

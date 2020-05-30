@@ -6,6 +6,18 @@
       "our" : "OUR TEAM",
       "explore" : "EXPLORE",
       "contact" : "CONTACT"
+    },
+    "home" :{
+      "democratizing" : "Democratizing",
+      "desc": "the business of talent discovery and reinventing the entertainment industry",
+      "sub": "Subscribe for Updates!",
+      "your-email": "Your Email",
+      "submit" : "Submit",
+      "withOrsus" : "With Orsus",
+      "creators" : "Creators & Influencers",
+      "artists" : "Artists",
+      "fansfol" : "Fans & Followers",
+      "fans": "Fans"
     }
   }
 }
