@@ -26,6 +26,6 @@ Usage:
 2. Then, on a new terminal run the actual project (npm run start)
 
 Disclaimer:
-Was not able to export the icons and images from Zeplin(no option to export), thus design is not completely accurate as per Zeplin.
+Was not able to export the icons and images from Zeplin(no option to export) and the only exportable image has a white background in the upper left, thus design is not completely accurate as per Zeplin. 
 Was only able to create 5 sections from the landing page :(
     
